@@ -1,0 +1,9 @@
+.NavBar {
+  background-color: white;
+  border-bottom: grey;
+}
+
+.logo {
+  height: 80px;
+  width: 25%
+}
