@@ -11,6 +11,8 @@ class NavBar extends Component {
         <ul className="nav">
           <li className="item">View Properties</li>
           <li className="item">Add a Property</li>
+          <Link className="item" to="/">See Properties</Link>
+          <Link className="item" to="/add-property">Add a Property</Link>
         </ul>
       </div>
     );

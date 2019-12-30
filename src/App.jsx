@@ -8,7 +8,14 @@ import Properties from './Properties';
 
 class App extends Component {
   render() {
-    return <NavBar />
+    return
+    <div>
+      <NavBar />
+      <Switch>
+        <Route exact path="/" component={Properties} />
+        <Route exact path="/add-property" component={AddProperty} />
+      </Switch>
+    </div>
   }
 }
 
