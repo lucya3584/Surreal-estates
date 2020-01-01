@@ -59,7 +59,7 @@ class AddProperty extends Component {
     <option value="Manchester">Manchester</option>
     <option value="Leeds">Leeds</option>
     <option value="Liverpool">Liverpool</option>
-    <option value="Hull">Hull</option>
+
   </select>
 
   <div className="input">No. of bedrooms:</div><input className="input" type="text" name="bedrooms" onChange={this.handleFieldChange}></input>
